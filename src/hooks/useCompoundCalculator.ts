@@ -1,7 +1,3 @@
-/**
- * Hook useCompoundCalculator - FinFlow Capital
- * Encapsula a lógica de estado e requisição para a calculadora de juros compostos.
- */
 import { useEffect, useState } from "react";
 import {
   calculateCompoundInterest,

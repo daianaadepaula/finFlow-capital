@@ -1,7 +1,3 @@
-/**
- * Hook useBooking - FinFlow Capital
- * Encapsula o estado, validações e submissão do formulário de agendamento de consultoria.
- */
 import { useState, type FormEvent } from "react";
 import {
   createBooking,

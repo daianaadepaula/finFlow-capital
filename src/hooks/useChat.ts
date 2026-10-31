@@ -1,7 +1,3 @@
-/**
- * Hook useChat - FinFlow Capital
- * Encapsula o estado, histórico, rolagem e envio de mensagens para o FinBot.
- */
 import { useState, useRef, useEffect, type FormEvent } from "react";
 import { sendChatMessages, type ChatMessage, type FinBotAction } from "@/services/chatService";
 

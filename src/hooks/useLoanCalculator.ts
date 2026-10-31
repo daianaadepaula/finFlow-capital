@@ -1,7 +1,3 @@
-/**
- * Hook useLoanCalculator - FinFlow Capital
- * Encapsula a lógica de estado e simulação de empréstimo.
- */
 import { useEffect, useState } from "react";
 import {
   simulateLoan,
